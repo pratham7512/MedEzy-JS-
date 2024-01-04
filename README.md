@@ -12,7 +12,7 @@ Medezy is an AI-powered chatbot designed to assist with health-related queries, 
 
 To interact with Medezy, follow these steps:
 
-1. **Accessing the Chatbot**: [Describe how users can access the chatbot—whether it's through a website, app, or any other platform.]
+1. **Accessing the Chatbot**: simply visit medEzy website and start conversation
 
 2. **Start Conversation**: Begin a conversation by typing queries or providing relevant information about health concerns.
 
