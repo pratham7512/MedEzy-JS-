@@ -30,4 +30,17 @@ const responseGenerator = async (req,res) => {
     }
 };
 
-module.exports=responseGenerator;
+
+//gemini
+const run=require("./gemini")
+const geminiResponse = async (req, res) => {
+    try {
+        const body = req.body; // Ensure req.body is parsed properly based on your setup
+        const response = await run(`${body.msg}`);
+        res.status(200).send(response);
+    } catch (error) {
+        res.status(500).send("Internal Server Error");
+    }
+};
+
+module.exports={responseGenerator,geminiResponse};
